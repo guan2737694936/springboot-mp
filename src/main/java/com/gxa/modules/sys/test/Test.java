@@ -13,6 +13,7 @@ public class Test {
 //        String pwd = new SimpleHash("MD5", "4444", "null", 1024).toString();
         String pwd = new SimpleHash("MD5", "1111", null, 1024).toString();
         System.out.println(pwd);
+        System.out.println(pwd);
 //        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 //        String time = sdf.format(Date.parse("Thu Jul 22 00:58:32 CST 2010"));
 //        System.out.println(time);
